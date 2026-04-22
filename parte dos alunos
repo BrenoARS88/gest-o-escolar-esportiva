@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Gestão Esportiva Escolar</title>
+</head>
+
+<body>
+
+<h1>🏐 Gestão Esportiva Escolar</h1>
+
+<hr>
+
+<!-- MENU -->
+<h2>Menu</h2>
+
+<ul>
+    <li><a href="#reportar">📢 Reportar Problema</a></li>
+    <li><a href="#problemas">📊 Ver Problemas</a></li>
+    <li><a href="#materiais">🏀 Controle de Materiais</a></li>
+</ul>
+
+<hr>
+
+<!-- REPORTAR -->
+<h2 id="reportar">📢 Reportar Problema</h2>
+
+<form>
+    <label>Nome do aluno:</label><br>
+    <input type="text"><br><br>
+
+    <label>Tipo de problema:</label><br>
+    <select>
+        <option>Rede de vôlei errada</option>
+        <option>Bola perdida</option>
+        <option>Quadra danificada</option>
+        <option>Outro</option>
+    </select><br><br>
+
+    <label>Descrição:</label><br>
+    <textarea rows="4"></textarea><br><br>
+
+    <button type="submit">Enviar</button>
+</form>
+
+<hr>
+
+<!-- LISTA DE PROBLEMAS -->
+<h2 id="problemas">📊 Problemas Reportados</h2>
+
+<ul>
+    <li>❌ Rede de vôlei fora do padrão - Status: Em análise</li>
+    <li>❌ Bola perdida - Status: Pendente</li>
+    <li>⚠️ Quadra com buraco - Status: Em manutenção</li>
+</ul>
+
+<hr>
+
+<!-- CONTROLE DE MATERIAIS -->
+<h2 id="materiais">🏀 Controle de Materiais</h2>
+
+<form>
+    <label>Nome do aluno:</label><br>
+    <input type="text"><br><br>
+
+    <label>Material:</label><br>
+    <select>
+        <option>Bola de vôlei</option>
+        <option>Bola de futebol</option>
+        <option>Rede</option>
+    </select><br><br>
+
+    <label>Ação:</label><br>
+    <select>
+        <option>Pegar material</option>
+        <option>Devolver material</option>
+    </select><br><br>
+
+    <button type="submit">Registrar</button>
+</form>
+
+<hr>
+
+<h3>Histórico</h3>
+
+<ul>
+    <li>João pegou bola de vôlei</li>
+    <li>Maria devolveu bola</li>
+</ul>
+
+</body>
+</html>
