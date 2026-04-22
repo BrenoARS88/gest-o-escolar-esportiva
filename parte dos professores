@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Painel do Gestor - Esportes</title>
+</head>
+
+<body>
+
+<h1>📊 Painel de Gestão Esportiva</h1>
+
+<hr>
+
+<!-- RESUMO -->
+<h2>📈 Resumo Geral</h2>
+
+<ul>
+    <li>Total de problemas: 8</li>
+    <li>Em análise: 3</li>
+    <li>Em manutenção: 2</li>
+    <li>Resolvidos: 3</li>
+</ul>
+
+<hr>
+
+<!-- PROBLEMAS PRIORITÁRIOS -->
+<h2>🚨 Problemas Prioritários</h2>
+
+<table border="1" cellpadding="10">
+    <tr>
+        <th>Problema</th>
+        <th>Quantidade</th>
+        <th>Prioridade</th>
+    </tr>
+
+    <tr>
+        <td>Rede de vôlei fora do padrão</td>
+        <td>5 alunos relataram</td>
+        <td>🔴 Alta</td>
+    </tr>
+
+    <tr>
+        <td>Bolas desaparecendo</td>
+        <td>3 alunos relataram</td>
+        <td>🟠 Média</td>
+    </tr>
+</table>
+
+<hr>
+
+<!-- LISTA COMPLETA -->
+<h2>📋 Lista de Problemas</h2>
+
+<table border="1" cellpadding="10">
+    <tr>
+        <th>Aluno</th>
+        <th>Problema</th>
+        <th>Descrição</th>
+        <th>Status</th>
+        <th>Ação</th>
+    </tr>
+
+    <tr>
+        <td>Breno</td>
+        <td>Rede de vôlei</td>
+        <td>Altura errada, precisamos ajustar todo dia</td>
+        <td>🟡 Em análise</td>
+        <td>
+            <select>
+                <option>Em análise</option>
+                <option>Em manutenção</option>
+                <option>Resolvido</option>
+            </select>
+        </td>
+    </tr>
+
+    <tr>
+        <td>Lucas</td>
+        <td>Bola perdida</td>
+        <td>Bolas somem fácil por falta de controle</td>
+        <td>🔧 Em manutenção</td>
+        <td>
+            <select>
+                <option>Em análise</option>
+                <option selected>Em manutenção</option>
+                <option>Resolvido</option>
+            </select>
+        </td>
+    </tr>
+
+</table>
+
+<hr>
+
+<!-- CONTROLE DE MATERIAIS -->
+<h2>🏀 Controle de Materiais</h2>
+
+<table border="1" cellpadding="10">
+    <tr>
+        <th>Aluno</th>
+        <th>Material</th>
+        <th>Ação</th>
+        <th>Status</th>
+    </tr>
+
+    <tr>
+        <td>João</td>
+        <td>Bola de vôlei</td>
+        <td>Pegou</td>
+        <td>Não devolvido</td>
+    </tr>
+
+    <tr>
+        <td>Maria</td>
+        <td>Bola de futebol</td>
+        <td>Devolveu</td>
+        <td>OK</td>
+    </tr>
+
+</table>
+
+<hr>
+
+<!-- AÇÕES -->
+<h2>⚙️ Ações Rápidas</h2>
+
+<ul>
+    <li>🔧 Solicitar manutenção da quadra</li>
+    <li>🏐 Comprar nova rede de vôlei</li>
+    <li>📦 Repor bolas esportivas</li>
+</ul>
+
+</body>
+</html>
